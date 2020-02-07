@@ -1,6 +1,10 @@
 TypeScript Webpack Import Babel Polyfill Demo
 ==============================================
 
+注意：
+babel polyfill已经deprecated了，推荐直接使用core-js。
+使用时不需要webpack处理，只需要在代码中`import "core-js"`即可。
+
 如果babel polyfill在多个文件中被载入，则在浏览器中，会出问题：
 
 - 旧版`babel-polyfill`: 报错
